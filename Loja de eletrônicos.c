@@ -1,17 +1,12 @@
-// Rafaela Bonifacio Galvão 48178837
-// Wilchid Vilsaint 47443227
-// Yago Lima de Queiroz 48140597
-
-
 // CADASTRO DE LOJA DE ELETRONICOS
 // Os dados ficam salvos no arquivo "loja.txt" (um produto por linha,
 // campos separados por ponto e virgula).
 
 
 #include <stdio.h>  
-#include <stdlib.h>  // atoi e atof: convertem texto em numero
-#include <string.h>  // strlen (tamanho), strchr, strstr (procurar), strcmp (comparar), strncpy (copiar)
-#include <ctype.h>   // tolower: transforma letra em minuscula
+#include <stdlib.h> 
+#include <string.h>  
+#include <ctype.h>   
 
 #define ARQUIVO    "loja.txt"   // nome do arquivo principal com os dados
 #define TEMPORARIO "temp.txt"   // nome do arquivo temporario (usado em alterar/excluir)
