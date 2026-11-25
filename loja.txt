@@ -1,1 +1,18 @@
-
+1;Celular Galaxy A15;Celular;999.90;20;Samsung
+2;Notebook Inspiron 15;Notebook;3299.00;10;Dell
+3;Tablet Tab A9;Tablet;1099.00;15;Samsung
+4;Televisao 50 4K;Televisao;2399.90;8;LG
+5;Computador Desktop i5;Computador;3799.00;6;Positivo
+6;Micro-ondas 20L;Eletrodomestico;549.90;12;Electrolux
+7;Fone Bluetooth;Audio;199.90;40;JBL
+8;Smartphone Moto G54;Celular;1199.00;18;Motorola
+9;iPhone 13 128GB;Celular;3999.00;7;Apple
+10;Notebook Aspire 5;Notebook;2899.00;9;Acer
+11;Smart TV 43 Full HD;Televisao;1699.90;11;Philco
+12;Caixa de Som Go;Audio;249.90;25;JBL
+13;Headset Gamer;Audio;229.90;30;Redragon
+14;Monitor 24 Full HD;Monitor;799.90;14;LG
+15;Teclado Mecanico;Perifericos;249.90;22;Redragon
+16;Mouse Sem Fio;Perifericos;89.90;45;Logitech
+17;Geladeira Frost Free;Eletrodomestico;3299.00;5;Electrolux
+18;Air Fryer 4L;Eletrodomestico;399.90;16;Philco
