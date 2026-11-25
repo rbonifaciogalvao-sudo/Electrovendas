@@ -1,6 +1,5 @@
 // CADASTRO DE LOJA DE ELETRONICOS
 
-
 #include <stdio.h>  
 #include <stdlib.h> 
 #include <string.h>  
