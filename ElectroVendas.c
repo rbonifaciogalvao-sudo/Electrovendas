@@ -1,5 +1,4 @@
 // CADASTRO DE LOJA DE ELETRONICOS
-// campos separados por ponto e virgula).
 
 
 #include <stdio.h>  
