@@ -1,4 +1,6 @@
 // CADASTRO DE LOJA DE ELETRONICOS
+// Os dados ficam salvos no arquivo "loja.txt" (um produto por linha,
+// campos separados por ponto e virgula).
 
 
 #include <stdio.h>  
@@ -187,28 +189,16 @@ void mostrarTabela(const Produto *lista, int n) {
 
 /* ======================= OPERACOES ======================= */
 
-// CRIAR: cria o arquivo com 7 produtos iniciais (apaga o anterior)
+// CRIAR: cria o arquivo vazio (apaga o anterior)
 void criarArquivo(int mostrarMensagem) {
     FILE *arquivo = fopen(ARQUIVO, "w");        // "w" cria o arquivo (ou apaga e cria de novo)
     if (arquivo == NULL) {                      // se deu erro ao criar...
         printf("Erro ao criar o arquivo!\n");   // ...avisa o usuario
         return;                                 // ...e sai da funcao
     }                                           // fim do if
-    Produto inicial[7] = {                      // vetor com os 7 produtos iniciais
-        {1, "Celular Galaxy A15",    "Celular",         999.90f,  20, "Samsung"},      // produto 1
-        {2, "Notebook Inspiron 15",  "Notebook",       3299.00f,  10, "Dell"},         // produto 2
-        {3, "Tablet Tab A9",         "Tablet",         1099.00f,  15, "Samsung"},      // produto 3
-        {4, "Televisao 50 4K",       "Televisao",      2399.90f,   8, "LG"},           // produto 4
-        {5, "Computador Desktop i5", "Computador",     3799.00f,   6, "Positivo"},     // produto 5
-        {6, "Micro-ondas 20L",       "Eletrodomestico", 549.90f,  12, "Electrolux"},   // produto 6
-        {7, "Fone Bluetooth",        "Audio",           199.90f,  40, "JBL"}           // produto 7
-    };                                          // fim do vetor
-    for (int i = 0; i < 7; i++) {               // repete 7 vezes (i = 0 ate 6)
-        gravarProduto(arquivo, &inicial[i]);    // grava o produto i no arquivo
-    }                                           // fim do for
-    fclose(arquivo);                            // fecha o arquivo
+    fclose(arquivo);                            // fecha o arquivo (ele fica vazio)
     if (mostrarMensagem) {                      // so mostra a mensagem se pediram
-        printf("Arquivo '%s' criado com 7 produtos iniciais.\n", ARQUIVO);  // avisa que criou
+        printf("Arquivo '%s' criado vazio.\n", ARQUIVO);    // avisa que criou
     }                                           // fim do if
 }
 
@@ -492,7 +482,7 @@ int main(void) {
 
     do {                                            // repete o menu ate escolher 0
         printf("\n========== ELECTROVENDAS ==========\n");    // titulo do menu
-        printf(" 1 - Criar arquivo (dados iniciais)\n");            // opcao 1
+        printf(" 1 - Criar arquivo (vazio)\n");                     // opcao 1
         printf(" 2 - Listar produtos\n");                           // opcao 2
         printf(" 3 - Inserir produto\n");                           // opcao 3
         printf(" 4 - Alterar produto\n");                           // opcao 4
@@ -510,7 +500,7 @@ int main(void) {
         if (feof(stdin)) break;                     // se acabou a entrada, encerra o programa
 
         switch (opcao) {                            // escolhe o que fazer conforme a opcao
-            case 1:  criarArquivo(1);   break;      // recria o arquivo com os dados iniciais
+            case 1:  criarArquivo(1);   break;      // recria o arquivo vazio
             case 2:  listarProdutos();  break;      // lista os produtos
             case 3:  inserirProduto();  break;      // insere um produto novo
             case 4:  alterarProduto();  break;      // altera um produto
