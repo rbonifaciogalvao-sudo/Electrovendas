@@ -41,3 +41,12 @@ ID, nome, categoria, preço, quantidade em estoque e fornecedor.
 * 📁 **Arquivo:** `Loja de Eletrônicos.c`
 
 * 🛒  [ElectroVendas](ElectroVendas.c)
+
+
+# 🗂️ Massa de dados
+
+O projeto acompanha o arquivo [loja.txt](loja.txt) com 18 produtos eletrônicos já cadastrados (celulares, notebooks, TVs, fones, eletrodomésticos e outros), para testar o programa sem precisar inserir tudo na mão.
+
+Para usar, deixe o `loja.txt` na mesma pasta do código antes de executar. Cada linha segue o formato:
+
+`id;produto;categoria;preco;quantidade;fornecedor`
