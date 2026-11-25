@@ -4,7 +4,8 @@
 
 Sistema em C para cadastrar e gerenciar os produtos de uma loja de eletrônicos, direto no terminal. Os dados ficam salvos em um arquivo de texto (loja.txt), então não se perdem ao fechar o programa.
 
-<h1> 📋 O que o programa faz
+<h1> 📋 O que o programa faz <h1\> 
+
 
 Criar arquivo: gera o loja.txt com 7 produtos iniciais
 Listar: mostra todos os produtos em formato de tabela
