@@ -1,10 +1,6 @@
-* 📁 **Arquivo:** `Loja de Eletrônicos.c`
-
-* 🛒  [ElectroVendas](ElectroVendas.c)
-
 Sistema em C para cadastrar e gerenciar os produtos de uma loja de eletrônicos, direto no terminal. Os dados ficam salvos em um arquivo de texto (loja.txt), então não se perdem ao fechar o programa.
 
-<h1> 📋 O que o programa faz <h1\> 
+# 📋 O que o programa faz 
 
 
 Criar arquivo: gera o loja.txt com 7 produtos iniciais
@@ -16,21 +12,26 @@ Buscar: procura por nome ou categoria, sem diferenciar maiúsculas de minúscula
 Ordenar: por nome (A-Z ou Z-A) ou por preço (menor → maior ou maior → menor), usando Bubble Sort
 Exportar CSV: gera o arquivo loja.csv e mostra o conteúdo na tela
 
-<h1>🧱 Dados de cada produto
+# 🧱 Dados de cada produto
 
 ID, nome, categoria, preço, quantidade em estoque e fornecedor.
 
-📁 Arquivos
+# 📁 Arquivos
 Arquivo	Função
 loja.txt	Guarda os produtos (um por linha, campos separados por ;)
 temp.txt	Arquivo temporário usado ao alterar/excluir
 loja.csv	Arquivo gerado na exportação
 
-⚙️ Regras do sistema
+# ⚙️ Regras do sistema
 Não permite dois produtos com o mesmo nome
 O preço aceita vírgula ou ponto (49,90 ou 49.90)
 A ordenação não altera o arquivo, só a exibição
 Comporta até 200 produtos
 
-💡 Conceitos utilizados
+# 💡 Conceitos utilizados
 struct, ponteiros, vetores, funções, manipulação de arquivos, strings e Bubble Sort.
+
+
+* 📁 **Arquivo:** `Loja de Eletrônicos.c`
+
+* 🛒  [ElectroVendas](ElectroVendas.c)
