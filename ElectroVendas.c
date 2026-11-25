@@ -1,5 +1,4 @@
 // CADASTRO DE LOJA DE ELETRONICOS
-// Os dados ficam salvos no arquivo "loja.txt" (um produto por linha,
 // campos separados por ponto e virgula).
 
 
