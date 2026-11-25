@@ -2,12 +2,10 @@
 
 * 🛒  [ElectroVendas](ElectroVendas.c)
 
-* **Descrição:** Programa de criptografia que combina a Cifra de César com a sequência de Fibonacci. O usuário informa uma palavra e um valor de SHIFT, utilizados para transformar cada letra de acordo com sua posição na sequência. O programa exibe a palavra codificada e salva o resultado em um arquivo `.txt`, utilizando operações de manipulação de arquivos em C.
-
-
 Sistema em C para cadastrar e gerenciar os produtos de uma loja de eletrônicos, direto no terminal. Os dados ficam salvos em um arquivo de texto (loja.txt), então não se perdem ao fechar o programa.
 
-📋 O que o programa faz
+<h1> 📋 O que o programa faz
+
 Criar arquivo: gera o loja.txt com 7 produtos iniciais
 Listar: mostra todos os produtos em formato de tabela
 Inserir: cadastra um novo produto (o ID é gerado automaticamente)
@@ -17,7 +15,7 @@ Buscar: procura por nome ou categoria, sem diferenciar maiúsculas de minúscula
 Ordenar: por nome (A-Z ou Z-A) ou por preço (menor → maior ou maior → menor), usando Bubble Sort
 Exportar CSV: gera o arquivo loja.csv e mostra o conteúdo na tela
 
-🧱 Dados de cada produto
+<h1>🧱 Dados de cada produto
 
 ID, nome, categoria, preço, quantidade em estoque e fornecedor.
 
